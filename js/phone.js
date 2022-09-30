@@ -30,7 +30,6 @@ function calculatePhonePrice(){
 // Event Handler for increasing the Amount of the Phone Quentity
 document.getElementById('btn-phone-plus').addEventListener('click', function(){
     const updatePhoneNumber = updatePhoneQuentity(true);
-    console.log(updatePhoneNumber);
     // increases the price of the Phone
     calculatePhonePrice();
 });
